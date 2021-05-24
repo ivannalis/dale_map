@@ -44,7 +44,7 @@ map.on('click', function (e) {
             offset: [0, 0]
         })
         .setLngLat(feature.geometry.coordinates)
-        .setHTML(`<p style="text-align:center;" class="center">Image Name </p><h3 style="font-size:18px; font-weight:bold;text-align:center;">${feature.properties.image_id}</h3><iframe width="350" height="250" allowfullscreen style="border-style:none;" src="http://127.0.0.1:5500/imgprev.html?thumb=${feature.properties.thumb}&show_high=${feature.properties.image_link}"></iframe> `) // CHANGE THIS TO REFLECT THE PROPERTIES YOU WANT TO SHOW
+        .setHTML(`<p style="text-align:center;" class="center">Image Name </p><h3 style="font-size:18px; font-weight:bold;text-align:center;">${feature.properties.image_id}</h3><iframe width="350" height="250" allowfullscreen style="border-style:none;" src="https://ivannalis.github.io/dale_map_dev/imgprev.html?thumb=${feature.properties.thumb}&show_high=${feature.properties.image_link}"></iframe> `) // CHANGE THIS TO REFLECT THE PROPERTIES YOU WANT TO SHOW
         .setLngLat(feature.geometry.coordinates)
         .addTo(map);
 
