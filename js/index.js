@@ -9,6 +9,7 @@ const latlong_sheet = 'dataset'
 const circle_radius = 5
 const point_color = 'green' 
 
+// don't change anything below
 const transformRequest = (url, resourceType) => {
     var isMapboxRequest =
         url.slice(8, 22) === "api.mapbox.com" ||
@@ -74,7 +75,7 @@ $(document).ready(function () {
                         offset: [0, 0]
                     })
                     .setLngLat(feature.geometry.coordinates)
-                    .setHTML(`<p style="text-align:center;" class="center">Image Name </p><h3 style="font-size:18px; font-weight:bold;text-align:center;">${feature.properties.preview_name}</h3><iframe width="100%" height="250px" allowfullscreen style="border-style:none;" src="/imgprev.html?thumb=${feature.properties.thumb}&show_high=${feature.properties.image_link}"></iframe> `) // CHANGE THIS TO REFLECT THE PROPERTIES YOU WANT TO SHOW
+                    .setHTML(`<p style="text-align:center;" class="center">Image Name </p><h3 style="font-size:18px; font-weight:bold;text-align:center;">${feature.properties.preview_name}</h3><iframe width="100%" height="250px" allowfullscreen style="border-style:none;" src="imgprev.html?thumb=${feature.properties.thumb}&show_high=${feature.properties.image_link}"></iframe> `) // CHANGE THIS TO REFLECT THE PROPERTIES YOU WANT TO SHOW
                     .setLngLat(feature.geometry.coordinates)
                     .addTo(map);
             });
