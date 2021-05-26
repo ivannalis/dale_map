@@ -3,7 +3,7 @@
 mapboxgl.accessToken =
 'pk.eyJ1IjoiaXZhbm5hbGlzIiwiYSI6ImNrbzM0Y2c5ZjBzOTAydmpudXdtcnBuZTYifQ.BRwjq1JbwZfZOty3CnXTXA';
 
-const sheet_url = "https://docs.google.com/spreadsheets/d/1OLCtK5Re4UiZMHd2M6PBrY0Iy_NKtlkV"
+const sheet_url = "https://docs.google.com/spreadsheets/d/1zh10oPPSiPEvb2EZFD-UZf2H1_sq_rgj"
 const latlong_sheet = 'dataset'
 
 const circle_radius = 4
