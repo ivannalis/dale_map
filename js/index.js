@@ -6,7 +6,7 @@ mapboxgl.accessToken =
 const sheet_url = "https://docs.google.com/spreadsheets/d/1OLCtK5Re4UiZMHd2M6PBrY0Iy_NKtlkV"
 const latlong_sheet = 'dataset'
 
-const circle_radius = 5
+const circle_radius = 4
 const point_color = 'green' 
 
 // don't change anything below

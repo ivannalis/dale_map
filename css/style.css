@@ -1,5 +1,6 @@
 .mapboxgl-map {
-    font: 12px/20px Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px/20px;
     overflow: hidden;
     position: relative;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
@@ -743,6 +744,16 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact {
 }
 
 @media only screen and (max-width: 480px) {
+    #map {
+        margin-top: -28px;
+    }
+    .nav-link {
+        text-align: center;
+        font-style: normal !important;
+    }
+    .me-3 {
+        margin-right: 0 !important;
+    }
     .mapboxgl-popup-content {
         max-width: 300px;
     }
