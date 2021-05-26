@@ -7,7 +7,7 @@ const sheet_url = "https://docs.google.com/spreadsheets/d/1OLCtK5Re4UiZMHd2M6PBr
 const latlong_sheet = 'dataset'
 
 const circle_radius = 4
-const point_color = 'green' 
+const point_color = 'purple' 
 
 // don't change anything below
 const transformRequest = (url, resourceType) => {
